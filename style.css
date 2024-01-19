@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        flex-direction: column !important;
+        
+    }
+
+    .Bio{
+       
+        margin-left: 0px !important;
+      }
+
+      #searchbar{
+        width: 80vw !important;
+      }
+      h1{
+        font-size: 30px !important;
+      }
+      
+ }
+
+
+
+
+
+ h4{
+    font-size: 20px  !important;
+    font-weight: 400 !important;
+  }
+
+ #searchbar{
+    width: 40vw;
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.search{
+    padding: 20px;
+}
+  #searchbar:focus{
+    color: #418CCD ;
+  }
+.header .Bio{
+  padding: 10px;
+  flex: 1;
+  margin-left: 50px;
+}
+.header .Bio #Name h1{
+    margin-bottom: 5px;
+  }
+  .header .Bio  h4{
+    padding: 0;
+    margin: 0;
+  }
+.header #profpic img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+}
+.header #profpic {
+    padding: 20px;
+}
+.github{
+    margin-left: 30px;
+}
+
+
+.repo-list{
+    background-color: bisque;
+    border: 1px solid black;
+    height: 300px;
+    box-shadow: 3px 3px 20px 0px grey;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.repo {
+    background: yellow;
+    text-align: center;
+    margin: 3px;
+    max-width: 50%;
+
+
+}
+.container {
+    height: 300px;
+    display: flex;				  /*  <----- required        */
+    flex-flow: column wrap;		  /*  <----- required        */
+    justify-content: flex-start;  /*  <----- required        */
+
+}
+
+  .item {
+    
+    background: #ffc353;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    height: 50px;
+    /* text-align: center; */
+    line-height: 50px;
+    max-width: 50%; /* <--- keeps two-column layout when you have only 1 item  */
+
+  }
+  .card_names{
+    display: flex;
+    gap: 3px;
+  }
+  .items{
+    border: 1px solid #000000;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .items_name{
+    color: #418CCD;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .button_theme{
+    background-color: #418CCD;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   font-size: 16px;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+  .items_dedc{
+color: #000000;
+font-size: 18px;
+font-weight: 500;
+margin-top: 10px;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+}
+
+.page-nav{
+    color:  #418CCD !important;
+}
+.page{
+    color:  #418CCD !important;
+}
+
